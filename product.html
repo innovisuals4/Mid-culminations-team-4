@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>INXO ULTRA ₹20 — AURA PENS</title>
+<meta name="description" content="INXO ULTRA by AURA PENS — premium everyday pen at ₹20. Quantity, add to cart, demo checkout." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="assets/logo-new.jpg" type="image/jpeg" />
+</head>
+<body>
+<a class="skip-link" href="#detail">Skip to product details</a>
+<div class="announce">Demo store · INXO ULTRA at ₹20 · Prices in INR</div>
+
+<header class="nav" id="siteHeader">
+  <div class="nav-inner">
+    <a href="index.html" class="brand" aria-label="AURA PENS — home">
+      <img src="assets/logo-new.jpg" alt="AURA PENS — feel the comfort" id="logoImg" width="120" height="120" />
+      <span>AURA PENS</span>
+    </a>
+    <nav class="links" aria-label="Primary">
+      <a href="index.html">Home</a><a href="shop.html" class="active">Shop</a>
+      <a href="index.html#about">About</a><a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <button class="iconbtn" id="searchToggle" aria-label="Open search" aria-expanded="false" aria-controls="searchPanel">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <button class="iconbtn" id="cartToggle" aria-label="Open cart">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h15l-1.5 9h-12z"/><path d="M6 7l-1-4H2"/><circle cx="9" cy="20" r="1.6"/><circle cx="18" cy="20" r="1.6"/></svg>
+        <span class="count" id="cartCount">0</span>
+      </button>
+    </div>
+  </div>
+  <div class="searchpanel" id="searchPanel" aria-hidden="true">
+    <div class="searchbox">
+      <input type="search" id="searchInput" placeholder="Search INXO ULTRA, pen…" autocomplete="off" aria-label="Search products" />
+      <button id="searchClear" aria-label="Clear search" hidden>✕</button>
+    </div>
+    <div class="searchres" id="searchResults" role="listbox" aria-label="Search results"></div>
+  </div>
+</header>
+
+<main class="page"><div class="wrap" id="detail">
+  <p class="crumbs reveal"><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <span id="crumbName">INXO ULTRA</span></p>
+  <div class="detail">
+    <div class="gallery reveal">
+      <img src="assets/inxo-ultra.jpg" alt="INXO ULTRA deep-blue pen by AURA PENS" id="pdImg" width="640" height="640" />
+      <span class="tag" id="pdTag">N°01 — LAUNCH EDITION</span>
+    </div>
+    <div class="buybox reveal">
+      <p class="cat" id="pdCat">Premium everyday pen</p>
+      <h1 id="pdName">INXO ULTRA</h1>
+      <p class="rate" id="pdRate">★★★★★ <span>4.8 · sample</span></p>
+      <p class="price"><span id="pdPrice">₹20</span> <small>per pen · INR</small></p>
+      <p class="desc" id="pdDesc">“Meet INXO ULTRA by AURA PENS — a writing companion for everyday ideas, bold thoughts and creative possibilities. Simple, stylish, ready to make every word count.”</p>
+      <div class="qtyrow">
+        <div class="stepper"><button id="qtyMinus" aria-label="Decrease quantity">−</button><span id="qtyVal">1</span><button id="qtyPlus" aria-label="Increase quantity">+</button></div>
+        <p class="dtotal">Total <strong id="qtyTotal">₹20</strong></p>
+      </div>
+      <div class="buyrow">
+        <button class="btn line" id="addToCartBtn">ADD TO CART</button>
+        <button class="btn solid" id="buyNowBtn">BUY NOW</button>
+      </div>
+      <details class="acc" open><summary>Details &amp; specs</summary>
+        <ul id="pdSpecs"><li>Model: INXO ULTRA by AURA PENS</li><li>₹20 per pen, INR</li><li>Everyday ball pen — smooth, lightweight</li><li>Deep-ocean matte, silver accents</li><li>For notes, study, journaling, office</li></ul>
+      </details>
+      <p><a class="back" href="shop.html">← Back to shop</a></p>
+    </div>
+  </div>
+</div></main>
+
+<footer class="foot"><div class="wrap foot-grid">
+  <p class="wordmark">Aura <em>Pens</em></p>
+  <p>© <span id="year"></span> AURA PENS · INR (₹)</p>
+  <p class="flinks"><a href="index.html">Home</a> · <a href="shop.html">Shop</a> · <a href="index.html#about">About</a></p>
+</div></footer>
+
+<div class="scrim" id="overlay" hidden></div>
+<aside class="cart" id="cartDrawer" aria-hidden="true" aria-label="Shopping cart">
+  <div class="cart-head"><h3>Cart <span id="drawerCount">(0)</span></h3><button class="iconbtn dark" id="cartClose" aria-label="Close cart">✕</button></div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="total"><span>Subtotal</span><strong id="cartSubtotal">₹0</strong></div>
+    <p class="demo">Demo checkout — no real payment is processed.</p>
+    <button class="btn solid block" id="checkoutBtn">CHECKOUT →</button>
+    <button class="btn line block" id="continueBtn">Continue shopping</button>
+  </div>
+</aside>
+<div class="modal" id="checkoutModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Checkout">
+  <div class="sheet">
+    <div class="cart-head"><h3>Checkout <em class="pill">DEMO</em></h3><button class="iconbtn dark" id="checkoutClose" aria-label="Close checkout">✕</button></div>
+    <div class="summary" id="orderSummary"></div>
+    <form id="checkoutForm" novalidate>
+      <label>Full name<input id="oName" type="text" autocomplete="name" required /><small class="err" id="oNameErr"></small></label>
+      <label>Mobile number<input id="oPhone" type="tel" autocomplete="tel" inputmode="numeric" required /><small class="err" id="oPhoneErr"></small></label>
+      <label>Delivery address<textarea id="oAddress" rows="3" required></textarea><small class="err" id="oAddressErr"></small></label>
+      <button class="btn solid block" id="placeOrderBtn" type="submit">CONFIRM · <span id="orderTotal">₹20</span></button>
+      <p class="form-msg" id="checkoutMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
+<div class="toasts" id="toastWrap" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
