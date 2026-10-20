@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="AURA LUMEN ivory pen">
+  <defs>
+    <radialGradient id="lbg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#ffffff"/><stop offset="60%" stop-color="#f3ecdd"/><stop offset="100%" stop-color="#d9cdb4"/>
+    </radialGradient>
+    <linearGradient id="lbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdf8ec"/><stop offset="40%" stop-color="#efe3cb"/><stop offset="75%" stop-color="#d3bf9c"/><stop offset="100%" stop-color="#b89f78"/>
+    </linearGradient>
+    <linearGradient id="lmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8e9c8"/><stop offset="50%" stop-color="#d9b878"/><stop offset="100%" stop-color="#96702f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#lbg)"/>
+  <circle cx="400" cy="330" r="265" fill="none" stroke="#ffffff" stroke-width="2" opacity=".8"/>
+  <circle cx="400" cy="330" r="225" fill="none" stroke="#c2ab80" stroke-width="1.5" stroke-dasharray="4 8" opacity=".8"/>
+  <ellipse cx="400" cy="640" rx="220" ry="26" fill="#5c4a22" opacity=".18"/>
+  <g transform="rotate(32 400 380)">
+    <path d="M400 120 L418 170 L400 185 L382 170 Z" fill="url(#lmet)" stroke="#6b5326" stroke-width="2"/>
+    <circle cx="400" cy="168" r="4" fill="#4a3a16"/>
+    <path d="M368 185 L432 185 L452 250 L348 250 Z" fill="url(#lbar)" stroke="#8a744e" stroke-width="2"/>
+    <rect x="345" y="250" width="110" height="220" rx="46" fill="url(#lbar)" stroke="#8a744e" stroke-width="2.5"/>
+    <rect x="345" y="250" width="34" height="220" rx="17" fill="#ffffff" opacity=".4"/>
+    <rect x="345" y="470" width="110" height="16" fill="url(#lmet)"/>
+    <rect x="342" y="486" width="116" height="150" rx="44" fill="url(#lbar)" stroke="#8a744e" stroke-width="2.5"/>
+    <rect x="342" y="560" width="116" height="10" fill="url(#lmet)" opacity=".9"/>
+    <rect x="452" y="500" width="26" height="120" rx="13" fill="#efe3cb" stroke="url(#lmet)" stroke-width="3"/>
+    <rect x="348" y="636" width="104" height="14" rx="7" fill="url(#lmet)"/>
+    <text x="400" y="360" text-anchor="middle" font-family="Verdana,sans-serif" font-size="26" letter-spacing="3" fill="#6b5326" transform="rotate(90 400 360)">AURA LUMEN</text>
+    <text x="400" y="560" text-anchor="middle" font-family="Verdana,sans-serif" font-size="19" letter-spacing="3" fill="#7d6535" transform="rotate(90 400 560)">AURA PENS</text>
+  </g>
+  <g font-family="Verdana,sans-serif">
+    <rect x="66" y="66" width="210" height="40" rx="20" fill="#4a3a16"/>
+    <text x="171" y="93" text-anchor="middle" font-size="17" letter-spacing="3" fill="#f6e3ae">AURA LUMEN</text>
+    <text x="70" y="700" font-size="30" fill="#4a3a16" font-weight="bold">Ivory brass · ₹29</text>
+    <text x="70" y="730" font-size="18" fill="#7d6f52">Everyday comfort pen</text>
+  </g>
+</svg>
